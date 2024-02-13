@@ -1,0 +1,5 @@
+name: DecentUI
+version: 0.1
+authors: [Donoru, kanske]
+main: com.donoru.DecentUI
+api-version: 1.8
