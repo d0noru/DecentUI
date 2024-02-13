@@ -26,7 +26,9 @@ public class create implements CommandExecutor {
 					if (args.length == 3) {
 						if (args[2].matches("[0-9]+") && Integer.parseInt(args[2]) <= 6) {
 							player.sendMessage("UI '" + args[1] + "' created with " + args[2] + " rows.");
-
+							if (true) {
+								return true;
+							}
 							File config = new File("", args[1] + ".yml");
 
 						} else {
