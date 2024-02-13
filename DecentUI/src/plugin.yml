@@ -1,5 +1,11 @@
 name: DecentUI
 version: 0.1
 authors: [Donoru, kanske]
-main: com.donoru.DecentUI
+main: com.donoru.DecentUI.DecentUI
 api-version: 1.8
+commands:
+  dui:
+    description: Access features of DecentUI
+    usage: /<command> <create|edit|delete>
+    aliases:
+      - decentui
